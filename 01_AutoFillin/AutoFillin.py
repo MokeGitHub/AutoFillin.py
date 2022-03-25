@@ -21,7 +21,7 @@ if __name__ == '__main__':
     # # #写入
     # with open('configg.ini','w') as cfg:
     #     config.write(cfg)
-    config.read("config.ini")
+    config.read("config.ini",encoding="utf-8")
     Login_user_name = config.get("config", "Login_user_name")
     Login_user_password = config.get("config", "Login_user_password")
     print(Login_user_name,Login_user_password)

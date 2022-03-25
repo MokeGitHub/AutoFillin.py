@@ -33,8 +33,8 @@ exe = EXE(pyz,
           upx=True,
           upx_exclude=[],
           runtime_tmpdir=None,
-          console=True,
+          console=False,
           disable_windowed_traceback=False,
           target_arch=None,
           codesign_identity=None,
-          entitlements_file=None , icon='G:\\03_Program\\03_Web\\01_AutoFillin\\37.ico')
+          entitlements_file=None , icon='G:\\03_Program\\03_Web\\01_AutoFillin\\image\\37.ico')
